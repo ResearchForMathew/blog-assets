@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"git status --short | head -10 && git stash && git pull --rebase origin main && git stash pop && git push origin main 2>&1 | tail -5\",\"description\":\"Stash, pull rebase, pop stash, push\"}",
+  "error": "Exit code 1\n M 2026-04-13/2026-04-13-thumbnail.png\n M 2026-04-13/BTC.png\n M 2026-04-13/BTC_4h.png\n M 2026-04-13/DXY.png\n M 2026-04-13/DXY_1d.png\n M 2026-04-13/ETH.png\n M 2026-04-13/ETH_4h.png\n?? .omc/\nSaved working directory and index state WIP on main: d53cd25 Add 2026-04-16 chart captures and thumbnail\nFrom github.com:ResearchForMathew/blog-assets\n * branch            main       -> FETCH_HEAD\n   7c776d6..543c5da  main       -> origin/main\nwarning: skipped previously applied commit d53cd25\nhint...",
+  "timestamp": "2026-04-16T11:25:21.994Z",
+  "retry_count": 2
+}
